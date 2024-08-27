@@ -4,9 +4,9 @@ namespace ClassRoomNet60;
 
 public class ClassRoom
 {
- public string Name { get; set; }
- public int BrithMonth { get; set; }
- public int Birthday { get; set; }
+ public string ClassName { get; set; }
+ public List<Student> StudentList { get; set; }
+ public DateTime SemesterStart { get; set; }
 
 
  public ClassRoom()
